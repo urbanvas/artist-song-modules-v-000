@@ -12,7 +12,7 @@ include Memorable::InstanceMethods
   @@artists = []
 
   def initialize
-    @@artists << self
+    super
     @songs = []
   end
 
