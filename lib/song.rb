@@ -12,9 +12,7 @@ include Memorable::InstanceMethods
 
   @@songs = []
 
-  def initialize
-    @@songs << self
-  end
+
 
   def artist=(artist)
     @artist = artist
